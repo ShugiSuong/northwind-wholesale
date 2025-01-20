@@ -29,6 +29,35 @@ Present key findings and recommendations that can benefit the company to increas
 5. Units in stock vs average order quantity to avoid order loss due to stock unavailability
 # Data Exploration with SQL
 Check out the SQL queries [here] (https://github.com/ShugiSuong/northwind-wholesale/blob/main/SQLqueries.sql)
-# Data Visualization and findings with Tableau
+# Data Visualization with Tableau
 Check out the Dashboard [here](https://public.tableau.com/app/profile/suong.hoang/viz/NorthwindProject_17313234121030/SaleDashboard?publish=yes)
 <img width="702" alt="screenshot sale performance" src="https://github.com/user-attachments/assets/82e50533-25a3-4f21-8a92-dc776cd7f725" />
+# Finding
+1.	50% of total revenue is generated from a 13% customer base: A small segment of customers is responsible for a substantial portion of our income
+2. One of our key customers (ID: MEREP) has abruptly ceased placing orders.
+3.	50% of total orders are less than 1k but accounted for only 16% of revenue. Large orders above 3k : 11% orders accounted for 40% of the revenue
+4. 3 out of the top 10 products were decided not to continue which will have a significant negative impact on revenue as well as relationships with customers who have a high purchased volume of them
+5.	 Customers who have more numbers of products tend to buy more in total
+6. Top customers are most interested in the top products. 
+7. Many products have stock levels lower than the minimum quantity required: causing potential loss of sale due to understock, especially for the top-selling. At the same time, many are overstocked, causing storage costs, loss due to expired stock, and cash flow issues…
+8. The current reorder point (ROP) set by the company is not a good indicator of managing stock level: too high, too low, at 0
+9. 9 of of 10 top products (check next slide) with ROP at 0 (meaning only reorder when they are run out of stock): very risky
+# Recommendations
+## Immediate actions to implement
+1.	Restock best-selling items currently out of stock or low in inventory to avoid sales loss
+2.	Reactivate key product IDs 29, 17, and 28, previously in the top 10, to the product lineup.
+3.	Investigate why MEREP ceased orders and restore the relationship
+4.	Examine customers previously ranked #6 to #10 to identify reasons for their decreased rankings.
+5.	Update Inventory Strategies: Establish a new reorder point (ROP) system for improved inventory management.
+6.	Clear Overstock: Launch a stock clearance promotion to manage overstocked items efficiently.
+ 
+## Strategic recommendation
+1.	Focusing intensively on the top customers  with loyalty programs, contracting, personalized account manager
+2.	At the same time engaging and developing relationships with the remaining customers to encourage them to order more 
+3.	Separating shipping cost from product pricing to make them appear more competitive and to be more flexible with the different offerings to different customers/products
+4.	Offering free shipping with the condition of Minimum order value to encourage larger order
+5.	Introducing a minimum order threshold of 200$ gradually and flexibly to different groups of customers
+6.	Regularly communicate with customers through newsletters or updates on new products and offers to keep them engaged
+7.	Expanding market, acquiring new customers
+# Detail Presentation
+Please check out the detail presentation [here](https://docs.google.com/presentation/d/1-WhO7SXwPu-0jhNwwcNKFUJAKjC0-ZT4/edit?usp=sharing&ouid=114710215277295122728&rtpof=true&sd=true)
