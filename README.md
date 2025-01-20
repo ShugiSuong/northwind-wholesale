@@ -28,5 +28,7 @@ Present key findings and recommendations that can benefit the company to increas
 4. What are the price ranges of the products? Which range gets the most orders? Highest revenue?
 5. Units in stock vs average order quantity to avoid order loss due to stock unavailability
 # Data Exploration with SQL
-
+Check out the SQL queries [here] (https://github.com/ShugiSuong/northwind-wholesale/blob/main/SQLqueries.sql)
 # Data Visualization and findings with Tableau
+Check out the Dashboard [here](https://public.tableau.com/app/profile/suong.hoang/viz/NorthwindProject_17313234121030/SaleDashboard?publish=yes)
+<img width="702" alt="screenshot sale performance" src="https://github.com/user-attachments/assets/82e50533-25a3-4f21-8a92-dc776cd7f725" />
